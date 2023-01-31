@@ -1,0 +1,28 @@
+{
+    "cv": {
+        "nombre": "Nicole Morgan",
+        "email": "nicole.morgan@example.com",
+        "fechaNacimiento": "11-2-1983",
+        "telefono": "(990) 974-4657",
+
+        "estudios": [
+            "Licenciatura en Administracion y Direccion de EmpresasCentro de estudios: Universidad de Barcelona. Años de realizacion: 2007/2012",
+            "Master Universitario en Contabilidad y FiscalidadCentro de estudios: Universidad de Barcelona. Años de realizacion: 2012/2013"
+        ],
+        "laboral": [
+            "Junio de 2015 – mayo de 2016: contable en Vertical Sports S. L., Barcelona- Funciones:contabilidad general de la empresa Tramitacion de nominas, recibos y facturasAsistencia a reuniones y Participacion en la toma de decisiones financierasReferencias disponibles",
+            "Febrero de 2014 – marzo de 2015: secretario en Amat Metalplast S. A., Barcelona- Funciones:Gestion general de la oficinaTramitacion de nominas, recibos y facturasReferencias disponibles",
+            "Septiembre-diciembre de 2013: auxiliar administrativo en Gotthard Trens S. L., Barcelona- Funciones:trabajo a media jornada tareas de Gestion general de la oficinaReferencias disponibles",
+            "Septiembre-diciembre de 2013: auxiliar administrativo en Gotthard Trens S. L., Barcelona- Funciones:trabajo a media jornada tareas de Gestion general de la oficina Referencias disponibles"
+
+        ],
+        "datosInteres": [
+            "Afan de superacion",
+            "Mentalidad analitica y reflexiva",
+            "Actitud tolerante y dialogante",
+            "Capacidad de adaptacion a distintos ambientes y situaciones laborales",
+            "Voluntad de crecimiento dentro de la empresa"
+        ]
+    }
+
+}
