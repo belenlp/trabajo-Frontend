@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background: #f35a5a;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 600px;
+    background: #ddd;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+
+/* Style the list inside the menu */
+
+article {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    background-color: #eee;
+    height: 600px;
+}
+
+article.articleGrande {
+    width: 80%;
+    min-height: 600px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+aside {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    background-color: #eee;
+    height: 600px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background: #f35a5a;
+    margin-top: 500px;
+    margin: -10px 0px;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
+}
+
+@media(min-width: 601px) and (max-width:900px) {
+    section {
+        height: auto;
+    }
+    nav {
+        float: left;
+        width: 35%;
+        margin-top: 0px;
+    }
+    article,
+    aside {
+        float: right;
+        width: 65%;
+        height: auto;
+    }
+    aside {
+        float: right;
+        margin-bottom: 100px;
+    }
+    article.articleGrande {
+        float: right;
+        width: 65%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+
+.elemLista {
+    margin: 0px auto;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    nav,
+    article,
+    article.articleGrande,
+    aside {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    aside {
+        margin-bottom: 100px;
+    }
+    .campoSimple,
+    .campoArea {
+        margin: 0px auto;
+    }
+}
+
+.tituloPrincipal {
+    color: rgb(241, 235, 255);
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a.boton {
+    margin: 0px auto;
+    cursor: pointer;
+    color: #444444;
+    font-weight: bold;
+    display: block;
+    border: none;
+    background-color: #bbb;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a.boton.selected {
+    background-color: #999;
+}
+
+a:hover {
+    background-color: #ccc;
+}
+
+p {
+    font-size: 18px;
+    color: #11192b;
+}
+
+.botonLink {
+    cursor: pointer;
+    color: #24355a;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.contenedorP {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ddF;
+    display: flex;
+    align-items: stretch;
+}
+
+.contenedorPInterno {
+    width: 50%;
+}
+
+#rojo {
+    color: #F00;
+}
+
+#negrita {
+    font-weight: bold;
+}
+
+.campoSimple,
+.campoArea {
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.campoArea {
+    max-height: 200px;
+}
+
+.campoError {
+    font-size: 14px;
+    color: red;
+}
+
+.formularioCorrecto {
+    font-size: 18px;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+    padding: 10px 50px;
+    max-width: 500px;
+    width: 70%;
+    visibility: hidden;
+}
+
+.botonEnviar,
+.botonLimpiar {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    max-width: 100px;
+}
+
+.botonEnviar {
+    background-color: rgb(10, 26, 116);
+}
+
+.botonLimpiar {
+    background-color: rgb(220, 10, 10);
+}
+
+footer>p {
+    margin: 0px auto;
+    color: #FFF;
+}

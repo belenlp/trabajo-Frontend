@@ -44,14 +44,10 @@ document.getElementById("datosInteresBoton").addEventListener('click', function(
 
 
 
-const response = await fetch('http://localhost/curso-frontend/public/misDatos.json');
+const response = await fetch('https://localhost/curso-frontend/misDatos.json');
 const miCurriculum = await response.json();
 
 
-document.getElementById("nombre").innerHTML = miCurriculum.cv.nombre;
-document.getElementById("fecha").innerHTML = miCurriculum.cv.fechaNacimiento;
-document.getElementById("email").innerHTML = miCurriculum.cv.email;
-document.getElementById("telefono").innerHTML = miCurriculum.cv.telefono;
 
 
 var misEstudios = miCurriculum.cv.estudios;
