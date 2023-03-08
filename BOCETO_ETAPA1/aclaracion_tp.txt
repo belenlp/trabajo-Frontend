@@ -1,0 +1,52 @@
+El trabajo final integrador constará de 3 páginas.
+
+--------------------------------------------------
+Página 1::   index.html
+>La página principal tiene como esquema el grafico_index.png
+
+>La misma es el perfil del usuario
+
+>Dentro del header y footer dispondrá de un título y elementos simples no interactivos
+
+>Dentro del <nav> se encuentran 3 botones para ir navegando por las otras dos páginas. 
+
+>En la sección de <article> se encuentra información de perfil de la persona.
+>Y en el <aside> la foto de perfil del usuario.
+
+--------------------------------------------------
+
+
+Página 2:   experiencia.html
+
+>La página 2 corresponde al gráfico_2_3.png  
+
+siguen estando los componentes <header> <footer> y el <nav>
+la diferencia está en <article> siendo mucho más abarcativo
+
+>Dentro del <article> se puede ver párrafos plegables correspondientes a detalles del usuario correspondientes a la experiencia laboral, a su formación académica...
+
+---------------------------------------------------
+
+Página 3:
+>Siendo similar a la página 2 en cuanto a la estructura. Varía en <article>
+<article> tiene un formulario el cual tiene algunos campos a llenar que se validan en javascript.  
+
+---------------------------------------------------
+
+Consideraciones generales:
+
+>Las 3 páginas son responsive por tanto al momento de visualizar en pantallas más pequeñas el diseño de la página se irá adecuando a ello.
+
+>Se trabajó con imagen de perfil, íconos, y bloques sugeridos por el curso.
+>Se implementó JS.  
+>Se implementó estilos css.
+>También se simuló sacar información de una api (un archivo .json)
+
+
+
+detalle a tener en cuenta:
+
+->Correr en un servidor local  (probar con un motor como xampp).     
+
+ ingresar a https://localhost/curso-frontend/   (para visualizar el index.html principal)
+( NO el modo  HTTP:// porque de lo contrario no funciona correctamente la página de experiencia.html puesto que la api apunta a https://) 
